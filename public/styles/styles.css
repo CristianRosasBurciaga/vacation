@@ -3,6 +3,7 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(33, 96, 128);
     
 }
 
@@ -10,6 +11,7 @@ body {
     width: 60%;
     border: 1px solid black;
     justify-self: center;
+    background-color: white;
 }
 
 form {
@@ -26,7 +28,8 @@ header {
     grid-area: header;
     text-align: center;
     background-image: url("../images/photo-1507525428034-b723cf961d3e.jpg");
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
     margin: 0;
     padding: 2rem;
 }
