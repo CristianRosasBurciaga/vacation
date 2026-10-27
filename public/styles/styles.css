@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#content-container {
+    width: 60%;
+    border: 1px solid black;
+    justify-self: center;
+}
+
+form {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "destination destination"
+    "date traveler"
+    "button button"
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+    background-image: url("../images/photo-1507525428034-b723cf961d3e.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 2rem;
+}
+
+#choose-destination {
+    grid-area: destination;
+}
+
+#choose-date {
+    grid-area: date;
+}
+
+#choose-traveler-count {
+    grid-area: traveler;
+}
+
+#submit {
+    grid-area: button;
+}
+
+h1 {
+    color: black;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid black;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+#submit {
+    width: 50%;
+    justify-self: center;
+    background-color: rgb(91, 188, 220);
+    color: white;
+    font-weight: bold;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 2rem;
+    margin: 1rem 0 2rem 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
