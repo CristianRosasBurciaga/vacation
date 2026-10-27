@@ -82,6 +82,10 @@ input, select {
     border-radius: 2rem;
     margin: 1rem 0 2rem 0;
 }
+#submit:hover {
+    background-color:rgb(53, 138, 166);
+    cursor: pointer;
+}
 
 footer {
     background-color: black;
